@@ -1,0 +1,14 @@
+SignalR.RedisMessageBus Information: 0 : Connecting...
+SignalR.RedisMessageBus Information: 0 : Connection opened
+SignalR.RedisMessageBus Verbose: 0 : Subscribed to event myApp
+SignalR.RedisMessageBus Error: 0 : OnConnectionError - ERR unknown command 'EVAL'
+SignalR.RedisMessageBus Information: 0 : Connecting...
+SignalR.RedisMessageBus Information: 0 : Connection opened
+SignalR.RedisMessageBus Verbose: 0 : Subscribed to event myApp
+SignalR.RedisMessageBus Error: 0 : OnConnectionError - ERR unknown command 'EVAL'
+SignalR.RedisMessageBus Information: 0 : Connecting...
+SignalR.RedisMessageBus Information: 0 : Connection opened
+SignalR.RedisMessageBus Verbose: 0 : Subscribed to event SignalRRedisHealthDashboard
+SignalR.RedisMessageBus Information: 0 : Connecting...
+SignalR.RedisMessageBus Information: 0 : Connection opened
+SignalR.RedisMessageBus Verbose: 0 : Subscribed to event SignalRRedisHealthDashboard

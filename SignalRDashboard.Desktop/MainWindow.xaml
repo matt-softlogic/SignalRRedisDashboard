@@ -1,0 +1,34 @@
+﻿<Window x:Class="SignalRDashboard.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:SignalRDashboard.Desktop"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="Client ID:"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="5" x:Name="txtClientId" Text="{Binding ClientId, Mode=OneWayToSource}"/>
+        <local:StatusControl Grid.Row="1" Grid.Column="0" x:Name="DevMachine1" DataContext="{Binding Dev1}" Padding="1" 
+                             IsEnabled="{Binding ElementName=txtClientId, Path=Text.Length, Mode=OneWay}"/>
+        <local:StatusControl Grid.Row="1" Grid.Column="1" x:Name="DevMachine2" DataContext="{Binding Dev2}" Padding="1" 
+                             IsEnabled="{Binding ElementName=txtClientId, Path=Text.Length, Mode=OneWay}"/>
+        <local:StatusControl Grid.Row="1" Grid.Column="2" x:Name="UATMachine1" DataContext="{Binding UAT1}" Padding="1" 
+                             IsEnabled="{Binding ElementName=txtClientId, Path=Text.Length, Mode=OneWay}"/>
+        <local:StatusControl Grid.Row="1" Grid.Column="3" x:Name="UATMachine2" DataContext="{Binding UAT2}" Padding="1" 
+                             IsEnabled="{Binding ElementName=txtClientId, Path=Text.Length, Mode=OneWay}"/>
+        <local:StatusControl Grid.Row="1" Grid.Column="4" x:Name="PrdMachine1" DataContext="{Binding Prd1}" Padding="1" 
+                             IsEnabled="{Binding ElementName=txtClientId, Path=Text.Length, Mode=OneWay}"/>
+        <local:StatusControl Grid.Row="1" Grid.Column="5" x:Name="PrdMachine2" DataContext="{Binding Prd2}" Padding="1" 
+                             IsEnabled="{Binding ElementName=txtClientId, Path=Text.Length, Mode=OneWay}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+Microsoft.Owin.Host.SystemWeb.OwinAppContext Information: 0 : Support for WebSockets has been detected.
+SignalR.RedisMessageBus Information: 0 : Connecting...
+SignalR.RedisMessageBus Information: 0 : Connection opened
+SignalR.RedisMessageBus Verbose: 0 : Subscribed to event SignalRRedisHealthDashboard
+Microsoft.Owin.Host.SystemWeb.OwinAppContext Information: 0 : Support for WebSockets has been detected.
+SignalR.RedisMessageBus Information: 0 : Connecting...
+SignalR.RedisMessageBus Information: 0 : Connection opened
+SignalR.RedisMessageBus Verbose: 0 : Subscribed to event SignalRRedisHealthDashboard
+SignalR.RedisMessageBus Information: 0 : Shutdown()
+Microsoft.Owin.Host.SystemWeb.OwinAppContext Information: 0 : Support for WebSockets has been detected.
+SignalR.RedisMessageBus Information: 0 : Connecting...
+SignalR.RedisMessageBus Information: 0 : Connection opened
+SignalR.RedisMessageBus Verbose: 0 : Subscribed to event SignalRRedisHealthDashboard
